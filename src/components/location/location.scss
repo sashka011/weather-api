@@ -1,0 +1,27 @@
+.location {
+    padding: 53px 107px 50px 107px;
+    width: 510px;
+    height: 330px;
+    border-radius: 30px;
+    background: #444;
+    box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.50);
+    &__city {
+        color: #FFF;
+        font-size: 36px;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__time {
+        color: #FFF;
+        font-size: 96px;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__date {
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+        line-height: 0;
+    }
+}

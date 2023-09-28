@@ -1,0 +1,37 @@
+.daysForecast {
+    padding-top: 18px;
+    padding-left: 30px;
+    padding-right: 18px;
+    width: 414px;
+    height: 366px;
+    border-radius: 40px;
+    background: #444;
+    box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.50);
+    &__title {
+        color: #FFF;
+        text-align: center;
+        font-size: 32px;
+        font-weight: 700;
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        column-gap: 30px;
+        &-img {
+            width: 60px;
+            height: 60px;
+        }
+        &-temp {
+            color: #FFF;
+            text-align: center;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        &-date {
+            color: #FFF;
+            text-align: center;
+            font-size: 19px;
+            font-weight: 600;
+        }
+    }
+}

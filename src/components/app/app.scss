@@ -1,0 +1,30 @@
+.header {
+    margin-top: 63px;
+    display: flex;
+}
+
+.first__row {
+    margin-top: 49px;
+    display: grid;
+    grid-template-columns: 510px 780px;
+    column-gap: 55px;
+    grid-template-rows: 330px;
+}
+
+.second__row {
+    margin-top: 49px;
+    display: grid;
+    grid-template-columns: 414px 870px;
+    column-gap: 61px;
+    grid-template-rows: 366px;
+}
+
+.error, .loading {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    background: linear-gradient(84deg, #FFF -16.56%, rgba(255, 255, 255, 0.00) 118.43%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

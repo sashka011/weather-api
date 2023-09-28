@@ -1,0 +1,47 @@
+.hourlyForecast {
+    padding-top: 18px;
+    padding-right: 80px;
+    padding-left: 80px;
+    width: 870px;
+    height: 366px;
+    border-radius: 30px;
+    background: #444;
+    box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.50);
+    &__title {
+        color: #FFF;
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__wrapper {
+        margin-top: 19px;
+        display: flex;
+        column-gap: 15px;
+    }
+    &__item {
+        display: grid;
+        padding-top: 13px;
+        width: 130px;
+        height: 270px;
+        border-radius: 40px;
+        background: #373636;
+        &-time {
+            color: #FFF;
+            font-size: 24px;
+            font-weight: 700;
+            text-align: center;
+        }
+        &-img {
+            display: block;
+            margin: 0 auto;
+            width: 60px;
+            height: 60px;
+        }
+        &-info {
+            color: #FFF;
+            font-size: 20px;
+            font-weight: 700;
+            text-align: center;
+        }
+    }
+}
